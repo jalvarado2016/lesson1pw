@@ -1,3 +1,4 @@
+document.body.style.backgroundColor = "#AA0000";
 /*LISTA ORDENADA DE ELEMENTOS*/
 function printList ( list ) {
 	var listHTML = '<ol>';
