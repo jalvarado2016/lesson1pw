@@ -1,12 +1,3 @@
-/*var preguntas = [
-{ pregunta: "Nombre: ", respuesta: "Adrian"},
-{ pregunta: "Género: ", respuesta: "Masculino"},
-{ pregunta: "Edad: ", respuesta: 17},
-{ pregunta: "Notas: ", respuesta: 10},
-{ pregunta: "Ciudad: ", respuesta: "Playas"},
-{ pregunta: "Lenguaje Favorito: ", respuesta: "Jommla"},
-{ pregunta: "Estás Trabajando: ", respuesta: "Solo cachuelos"},];
-*/
 /*LISTA ORDENADA DE ELEMENTOS*/
 function printList ( list ) {
 	var listHTML = '<ol>';
@@ -19,20 +10,13 @@ function printList ( list ) {
 function print(html) {
 	document.write(html);
 }
-var estudiantes = []; 
-estudiantes.push("Adrian","Hanna","Heather","Michelle","Ashley");
-var genero = []; 
-genero.push("Masculino" , "Femenino" , "Femenino" , "Femenino" , "Femenino");
-var edad = []; 
-edad.push("18" , "16" , "22" , "17" , "15");
-var notas = []; 
-notas.push("10" , "10" , "10" , "10" , "10");
-var ciudad = [];
-ciudad.push("Playas" , "Manta" , "Guayaquil" , "Machala" , "Quito");
-var lenguaje = [];
-lenguaje.push("C++" , "JAVA" , "JOMMLA" , ".NET" , "SQL");
-var trabajo = [];
-trabajo.push("Solo cachuelos" , "De vez en cuando" , "Sí" , "Sí" , "De repente");
+var estudiantes = ["Adrian","Hanna","Heather","Michelle","Ashley"];
+var genero = ["Masculino" , "Femenino" , "Femenino" , "Femenino" , "Femenino"];
+var edad = ["18" , "16" , "22" , "17" , "15"];
+var notas = ["10" , "10" , "10" , "10" , "10"];
+var ciudad = ["Playas" , "Manta" , "Guayaquil" , "Machala" , "Quito"];
+var lenguaje = ["C++" , "JAVA" , "JOMMLA" , ".NET" , "SQL"];
+var trabajo = ["Solo cachuelos" , "De vez en cuando" , "Sí" , "Sí" , "De repente"];
 
 while (true)
 { 
@@ -43,7 +27,9 @@ while (true)
 		}
 		else if (buscar == "l")
 		{
-		printList(estudiantes,genero);
+		var html = "<h1>Registro de estudiante</h1>";
+		print(html);	
+		printList(estudiantes);
 				
 		}
 		else
@@ -51,7 +37,9 @@ while (true)
 		var buscado = estudiantes.indexOf(buscar);
 		if (buscado >= 0)
 		{
-		printList(estudiantes);
+		var html = "<h1>Registro de estudiante</h1>";
+		print(html);	
+		printList(estudiantes,genero,edad,notas);
 		}
 		else if (buscado < 0)
 		{
