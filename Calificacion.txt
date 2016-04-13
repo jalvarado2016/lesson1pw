@@ -1,0 +1,13 @@
+Detalle Calificacion
+Requisitos Funcionales (5 Puntos): 1 Punto. No cumplio con la estructura de Arreglo de Objetos Estudiante. Si lista pero solo el nombre. Si tiene condicion de salida.
+Errores Manejados o no tiene en consola (2 Puntos): 1 Punto. No tiene errores en consola. Pero no manejo la validacion.
+Buen Uso de Funciones, Ciclos y DRY (2 Puntos): 0.5 Puntos. No utilizo ciclos como requeria el programa xq no uso la estructura apropiada. Funciones son las mismas que tenia.
+Comentarios (1 Punto): 0.5 Puntos. No tiene comentarios adicionales a los que pusimos anteriormente en clase.
+Subio bien a github (1 Punto bonus):  1 Punto.
+Total: 4 Puntos.
+
+Comentarios Profesor
+No cumplio con los requisitos basicos.
+Ademas su estructura de datos esta muy mal disenada, poner cada campo aparte es bueno en base de datos pero no hay nada que los agrupe como en Diseno de Base de datos.
+
+https://github.com/jalvarado2016/lesson1pw
